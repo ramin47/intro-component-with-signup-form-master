@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FF7978;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-background {
+    width: 100%;
+    margin: auto;
+}
+
+.left {
+    margin-top: -580px;
+    margin-left: 250px;
+    text-align: left;
+}
+
+.head {
+    color: white;
+    font-size: 44px;
+}
+
+.parag {
+    color: white;
+    font-size: 17px;
+}
+
+.right {
+    margin-top: -580px;
+    text-align: center;
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px white;
+
+}
+
+.banner {
+    background-color: rgb(93,84,163);
+    width: 450px;
+    height: 35px;
+    margin-top: -63px;
+    border-radius: 7px;
+    margin-bottom: 32px;
+    box-shadow: 2px 2px 2px 2px rgb(124, 124, 124);
+}
+
+.parag-two {
+    color: white;
+    padding-top: 8px;
+}
+
+.span-one {
+    color: rgb(206, 206, 206);
+    font-weight: lighter;
+}
+
+.input-style {
+    width: 400px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+.error-section {
+    background-color: white;
+    width: 450px;
+    border-radius: 7px;
+    margin-left: 788px;
+    margin-top: -185px;
+    text-align: center;
+    color: red;
+    
+}
+
+.btn {
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+    background-color: #37CC8A;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #37CC8A;
+
+}
+
+.btn:hover {
+    background-color: rgb(93,84,163);
+    color: white;
+    box-shadow: none;
+}
+
+.parag-three {
+    font-size: 13px;
+    color: gray;
+}
+
+.span-two {
+    color: rgb(201, 43, 43);
+    font-size: 15px;
+}
+
+
+@media (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .left {
+        margin-top: -230px;
+        margin-left: 0;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 0;
+        text-align: center;
+        margin-left: 12px;
+        background-color: white;
+        width: 450px;
+        height: 350px;
+        border-radius: 7px;
+        box-shadow: 2px 2px 2px 2px white;
+        margin-bottom: 35px;
+    
+    }
+    .banner {
+        background-color: rgb(93,84,163);
+        width: 450px;
+        height: 35px;
+        margin-top: -63px;
+        border-radius: 7px;
+        margin-bottom: 32px;
+        box-shadow: 2px 2px 2px 2px rgb(124, 124, 124);
+    }
+    .error-section {
+        background-color: white;
+        width: 450px;
+        border-radius: 7px;
+        margin-left: 14px;
+        margin-top: -43px;
+        text-align: center;
+        color: red;
+        
+    }
+    
+}
